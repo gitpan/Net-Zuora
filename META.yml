@@ -1,0 +1,36 @@
+---
+abstract: 'SOAP::Lite wrapper around the Zuora Z-Billing API'
+author:
+  - 'Tomas Doran (t0m) C<< <t0m@state51.co.uk> >>'
+build_requires:
+  DateTime: 0
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.88
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-Zuora
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  File::ShareDir: 0
+  Moose: 0
+  MooseX::Lexical::Types: 0
+  MooseX::StrictConstructor: 0
+  MooseX::Types: 0
+  MooseX::Types::Common: 0
+  MooseX::Types::ISO8601: 0.02
+  MooseX::Types::Path::Class: 0
+  Path::Class: 0
+  SOAP::Lite: 0.69
+  namespace::autoclean: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.000000_01
